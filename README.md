@@ -55,7 +55,19 @@ GROQ_API_KEY = "<your-groq-api-key>"
 API_URL = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-dev"
 headers = {"Authorization": "Bearer <your-hugging-face-api-key>"}
 ```
+---
+## How to Run
+-Before typing all this commands make sure that inside the terminal you are in the project directory (eg D:\Ai-Studios>)
+- Inside terminal just type the following command
+```bash
+pip install -r requirements.txt
+```
+The above command will install all the packages required for project to run
 
+- Now inside terminal type the below command for you code to execute
+```bash
+python app.py
+```
 ---
 ## 🖼 Screenshots
 
