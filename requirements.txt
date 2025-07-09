@@ -1,0 +1,6 @@
+Flask
+groq
+webbrowser
+diffusers
+torch
+accelerate
