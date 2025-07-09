@@ -27,7 +27,7 @@ The platform reduces barriers for small-scale or non-technical creators, helping
 - Empower innovation in storytelling, poetry, and visual design
 
 ---
-## 🧩 System Architecture-api-key
+## 🧩 System Architecture
 
 ![image](https://github.com/user-attachments/assets/bb9e3753-af64-420c-95a0-d0782c3f3e1e)
 ![image](https://github.com/user-attachments/assets/75d78cce-98be-42cd-b58e-0a242bb54135)
