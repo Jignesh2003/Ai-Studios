@@ -27,7 +27,7 @@ The platform reduces barriers for small-scale or non-technical creators, helping
 - Empower innovation in storytelling, poetry, and visual design
 
 ---
-## 🧩 System Architecture
+## 🧩 System Architecture-api-key
 
 ![image](https://github.com/user-attachments/assets/bb9e3753-af64-420c-95a0-d0782c3f3e1e)
 ![image](https://github.com/user-attachments/assets/75d78cce-98be-42cd-b58e-0a242bb54135)
@@ -40,6 +40,21 @@ The platform reduces barriers for small-scale or non-technical creators, helping
 - **Backend**: Python, Flask
 - **AI APIs**: Groq (for LLM), HuggingFace (for image generation)
 - **Tools**: VS Code
+- **Models Used using this apis**: llama3-8b-8192 (For Story & Poem Generation), FLUX.1-dev (For Image Generation)
+
+---
+## How to Use
+- You just have to create your account on:
+  - https://groq.com/
+  - https://huggingface.co/
+- Once the account is created then you have to generate your own API keys in both of this account then have to replace them with the below line of code.
+
+```bash
+GROQ_API_KEY = "<your-groq-api-key>"
+# Hugging Face API
+API_URL = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-dev"
+headers = {"Authorization": "Bearer <your-hugging-face-api-key>"}
+```
 
 ---
 ## 🖼 Screenshots
